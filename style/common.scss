@@ -14,13 +14,11 @@ body, div, span, header, footer, nav, section, aside, article, ul, ol,dl, dt, dd
     box-sizing: border-box;
   
 }
-header,footer{
-    min-width:1300px;    
-}
+
 .container{
-    width: 80%;
+    // width: 80%;
     margin: 0 auto;
-    min-width: 1600px;
+    width: 1500px;
     
 }
 

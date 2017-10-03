@@ -4,12 +4,20 @@ body {
     margin: 0;
     padding: 0;
 }
-
-.container {
+.container-types{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 36px 0 48px;
+}
+header{
+    box-shadow: 0 12px 24px 0 rgba(7,17,27,0.2);
 }
 /*共用*/
 /*每个新闻框右上角的title*/
-
+.container{
+    margin-top: 30px;
+}
 .part-title {
     display: block;
     font-weight: bolder;
@@ -61,9 +69,7 @@ body {
     overflow: auto;
     text-align: center;
 
-    // li {
-    //     list-style: none;
-    // }
+
 
     ul li {
         float: left;
@@ -117,11 +123,6 @@ body {
 #ar {
     right: 15px;
 }
-
-
-
-
-
 
 
 /*科研资讯*/
@@ -236,9 +237,7 @@ body {
 
 /*科学研究、科研成果、学术交流*/
 
-.mix {
-    margin-top: 50px;
-}
+
 
 .mixLeft {
     display: inline-block;
@@ -424,3 +423,71 @@ body {
     @include bis(url("../images/icons/achievement.png"))
 }
 
+
+/*咨询培训 Consultation training*/
+.train-title::after{
+    content: 'Consultation Training';
+}
+.train{
+    position: relative;
+}
+.index-card{
+    width: 400px;
+    height: 90px;
+    display: inline-block;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    box-shadow: 0 12px 24px 0 rgba(7,17,27,0.2);
+    transition: all .4s;
+   
+
+    &:hover{
+        box-shadow: 0 15px 35px 5px rgba(7,17,27,0.2);
+    
+    }
+}
+.card-time{
+    width: 20%;
+    line-height: 35px;
+    text-align: center;
+    height: 100%;
+    float: left;    
+    p:nth-child(1){
+        width: 100%;
+        height: 50%;
+        background-color: $green;
+        color: white;            
+        border-bottom: 1px solid white;
+        
+    }
+    p:nth-child(2){
+        width: 100%;
+        height: 50%;
+        
+        background-color: $green;
+        color: white;            
+    }
+    
+}
+
+.card-content{
+    width: 80%;
+    height: 100%;
+    float: left;    
+    display: table;
+    position: relative;
+    background-color: #217980;
+   
+}
+.card-content-inner{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    padding: 0 8px;
+    text-align: left;
+    // text-align: center;
+    p{
+        color: white;    
+        position: relative;
+    }
+}
