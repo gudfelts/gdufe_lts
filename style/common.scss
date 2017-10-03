@@ -1,0 +1,229 @@
+@import 'mixin.scss';
+
+body, div, span, header, footer, nav, section, aside, article, ul, ol,dl, dt, dd, li, a, p, h1, h2, h3, h4,h5, h6, i, b, textarea, button, input, select, figure
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+    color: #333;
+    font-weight: normal;
+    font-family: "Microsoft Yahei";
+    box-sizing: border-box;
+  
+}
+header,footer{
+    min-width:1300px;    
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    min-width: 1600px;
+    
+}
+
+/*顶部栏*/
+
+header {
+    width: 100%;
+    height: 121px;
+   
+    background:$green; /* 一些不支持背景渐变的浏览器 */  
+    // background:-moz-linear-gradient(top, #64E464, $green);  
+    // background:-webkit-gradient(linear, 0 0, 0 bottom, from(#64E464), to($green));  
+    // background:-o-linear-gradient(top, #64E464, $green); 
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-size: 15px;
+    box-shadow: 10px 10px 50px 10px rgba(7,17,27,.06);
+    
+}
+
+
+
+// .toMore
+
+
+/*顶部栏logo*/
+
+.logo {
+    display: inline-block;
+    height: 100%;
+    padding-left: 110px;
+}
+
+.logo_img {
+    width: 320px;
+    height: inherit;
+}
+
+
+/*顶部栏导航*/
+
+.nav {
+    margin-right: 60px;
+    height: 100%;
+    position: relative;
+}
+
+.nav_box {
+    height: inherit;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    /* padding-top: 35px; */
+    text-align: center;
+}
+
+
+/*顶部栏导航栏子栏目*/
+
+.nav_item {
+    height: inherit;
+    margin: 0 30px;
+    padding: 45px 0;
+
+    a {
+        display: block;
+        color: white;
+        font-size: 25px;
+        min-width: 130px;
+    }
+
+    > a {
+        font-weight: bolder;
+    }
+}
+
+
+
+
+/*访问导航栏变色*/
+
+a:hover {
+    color: rgb(235, 170, 110);
+}
+
+
+/*导航栏箭头*/
+
+.nav_icon {
+    // display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url('../images/icons/nav_toBottom.png') no-repeat center;
+    background-size: 100% 100%;
+    float: right;
+    -webkit-transition: transform .5s;
+    -webkit-transition: -webkit-transform .5s;
+    transition: -webkit-transform .5s;
+    transition: transform .5s;
+    transition: transform .5s, -webkit-transform .5s;
+}
+
+
+/*导航栏让箭头旋转*/
+
+.nav_item>a:hover .nav_icon {
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    /* IE 9 */
+    -moz-transform: rotate(180deg);
+    /* Firefox */
+    -webkit-transform: rotate(180deg);
+    /* Safari 和 Chrome */
+    -o-transform: rotate(180deg);
+    /* Opera */
+    -webkit-filter: drop-shadow(0 0 red);
+    filter: drop-shadow(0 0 red);
+}
+
+
+/*导航栏子栏目*/
+
+.item_content {
+    display: none;
+    opacity: 0;
+    padding: 12px;
+    position: absolute;
+    background-color: #006771;
+    top: 110%;
+    z-index: 1000;
+    -webkit-transition: transform .5s;
+    -webkit-transition: -webkit-transform .5s;
+    transition: -webkit-transform .5s;
+    transition: transform .5s;
+    transition: transform .5s, -webkit-transform .5s;
+    margin-left: -10px;
+
+/*导航栏子栏目中的小箭头*/
+    
+    &::before {
+        content: '';
+        display: inline-block;
+        border-bottom: 10px solid #006771;
+        border-top: 10px solid transparent;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        position: absolute;
+        top: 0;
+        -webkit-transform: translate(-50%, -100%);
+        transform: translate(-50%, -100%);
+    }
+
+    a {
+        margin: 12px 0;
+    }
+}
+
+
+
+
+/*底部栏*/
+footer{
+    width: 100%;
+    padding: 36px 0;
+    background-color: #f8fafc;
+    box-shadow: 0 -2px 8px 0 rgba(7,17,27,.06)
+}
+.footer-box{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.footer-link{
+
+    margin-bottom: 10px;
+    a{
+        color: #99a1a6; 
+        margin-right: 40px;
+        &:hover{
+            color: black;
+        }
+    
+    }
+}
+.footer-copyright{
+
+    p{
+        color: #99a1a6; 
+        font-size: 17px;
+        cursor: default;
+    
+    }
+}
+.copyright-left{
+    display: inline-block;
+}
+.copyright-right{
+    display: inline-block;
+    margin-left: 100px;
+}
