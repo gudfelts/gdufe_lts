@@ -2,7 +2,7 @@
 .nav_img
 {
     width: 100%;
-    height: 600px;
+    height: 500px;
     margin: 0 auto;
     background: url('../images/img_Ins_top.jpg') no-repeat;
     background-size: 100% 100%;
@@ -32,7 +32,8 @@
 /*--内容栏css Start-*/
 
 .boxRight{
-    margin-right: 100px;
+    /* margin-right: 100px; */
+    width: 800px;
 }
 .cont
 {
@@ -156,7 +157,7 @@
 
 .detail_colu
 {
-    width: 920px;
+    width: 100%;
     margin: 0 auto;
     margin-bottom: 45px;
 }
