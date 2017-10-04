@@ -233,10 +233,6 @@ header {
   transition: width .4s;
 }
 
-.new-item:hover {
-  margin-top: -4px;
-}
-
 .new-item:hover > a::before {
   width: 0;
 }
@@ -320,6 +316,7 @@ header {
   border: 1px solid white;
   border-bottom: 0;
   border-left: 0;
+  position: relative;
   /*幕布动画效果*/
 }
 

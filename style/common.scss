@@ -27,7 +27,7 @@ body, div, span, header, footer, nav, section, aside, article, ul, ol,dl, dt, dd
 
 header {
     width: 100%;
-    height: 121px;
+    height: 110px;
    
     background:$green; /* 一些不支持背景渐变的浏览器 */  
     // background:-moz-linear-gradient(top, #64E464, $green);  
@@ -59,7 +59,7 @@ header {
 
 .logo_img {
     width: 320px;
-    height: inherit;
+    height: 100%;
 }
 
 
