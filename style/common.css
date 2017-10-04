@@ -13,75 +13,58 @@ body, div, span, header, footer, nav, section, aside, article, ul, ol, dl, dt, d
   color: #333;
   font-weight: normal;
   font-family: "Microsoft Yahei";
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 .container {
   margin: 0 auto;
-  width: 1200px;
+  max-width: 1300px;
+  min-width: 1200px;
 }
 
 /*顶部栏*/
 header {
   width: 100%;
-  height: 110px;
+  height: 72px;
+  position: relative;
   background: #06A3B1;
   /* 一些不支持背景渐变的浏览器 */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
   font-size: 15px;
+  -webkit-box-shadow: 10px 10px 50px 10px rgba(7, 17, 27, 0.06);
   box-shadow: 10px 10px 50px 10px rgba(7, 17, 27, 0.06);
 }
 
 /*顶部栏logo*/
 .logo {
-  display: inline-block;
   height: 100%;
-  padding-left: 110px;
+  padding-left: 20px;
+  float: left;
+  margin-right: 50px;
 }
 
 .logo_img {
-  width: 320px;
+  width: 200px;
   height: 100%;
 }
 
 /*顶部栏导航*/
-.nav {
-  margin-right: 60px;
-  height: 100%;
-  position: relative;
-}
-
-.nav_box {
-  height: inherit;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  /* padding-top: 35px; */
-  text-align: center;
-}
-
 /*顶部栏导航栏子栏目*/
 .nav_item {
-  height: inherit;
-  margin: 0 30px;
-  padding: 45px 0;
+  float: left;
 }
 
 .nav_item a {
+  padding: 0 20px;
   display: block;
   color: white;
-  font-size: 25px;
-  min-width: 130px;
+  text-align: center;
+  font-size: 16px;
 }
 
 .nav_item > a {
+  line-height: 72px;
+  min-width: 130px;
   font-weight: bolder;
 }
 
@@ -92,11 +75,13 @@ a:hover {
 
 /*导航栏箭头*/
 .nav_icon {
+  display: inline-block;
   width: 30px;
   height: 30px;
-  background: url("../images/icons/nav_toBottom.png") no-repeat center;
+  background-image: url("../images/icons/nav_toBottom.png");
   background-size: 100% 100%;
-  float: right;
+  background-repeat: no-repeat;
+  margin-bottom: -9px;
   -webkit-transition: transform .5s;
   -webkit-transition: -webkit-transform .5s;
   transition: -webkit-transform .5s;
@@ -106,6 +91,8 @@ a:hover {
 
 /*导航栏让箭头旋转*/
 .nav_item > a:hover .nav_icon {
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
   transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   /* IE 9 */
@@ -146,6 +133,7 @@ a:hover {
   border-right: 10px solid transparent;
   position: absolute;
   top: 0;
+  left: 50%;
   -webkit-transform: translate(-50%, -100%);
   transform: translate(-50%, -100%);
 }
@@ -159,6 +147,7 @@ footer {
   width: 100%;
   padding: 36px 0;
   background-color: #f8fafc;
+  -webkit-box-shadow: 0 -2px 8px 0 rgba(7, 17, 27, 0.06);
   box-shadow: 0 -2px 8px 0 rgba(7, 17, 27, 0.06);
 }
 

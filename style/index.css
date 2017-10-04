@@ -373,7 +373,7 @@ header {
   display: -ms-inline-flexbox;
   display: inline-flex;
   height: 100%;
-  width: 110px;
+  width: 30%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-flow: column;
@@ -399,7 +399,7 @@ header {
 }
 
 .pic-box img {
-  width: 288px;
+  width: 70%;
   height: 100%;
 }
 
