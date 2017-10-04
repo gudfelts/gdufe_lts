@@ -3,16 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="../style/common.min.css">
-    <link rel="stylesheet" href="../style/news.css">
-    <link rel="stylesheet" href="../style/navLeft.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lts</title>
     <script src='../js/jquery-3.2.1.min.js'></script>
     <script src='../js/common.js'></script>
-    
-    <!--分页组件-->
-    <script src="../js/paging.min.js"></script>
-    <link rel="stylesheet" href="../style/paging.css">
+    <link rel="stylesheet" href="../style/common.min.css">
+    <link rel="stylesheet" href="../style/navLeft.css">
+    <link rel="stylesheet" href="../style/Ins.css">
+
+
 </head>
 
 <body>
@@ -92,55 +92,60 @@
 
 
     </header>
-<div class="container">
-    <!--左侧-->
-    <div class='flexbox'>
-        <div class="boxLeft">
-            <!--左侧导航栏上面的装饰-->
-            <div class="navTop">
-                <div class="image"><img src="../images/research1.png" alt=""></div>
-                <div class="line"><a href="#">科研成果</a></div>
-            </div>
+    <div class="container">
 
-            <!--左侧导航栏-->
-            <ul class="itemUl">
-                <li class="itemLi"><a href="archi1.html">学术论文</a></li>
-                <li class="itemLi"><a href="archi2.html">著作</a></li>
-                <li class="itemLi"><a href="archi3.html" id="active">研究报告</a></li>
-            </ul>
-
-            <!--左侧导航栏下面的图片-->
-            <div class="navBottom">
-                <img src="../images/research2.png" alt="">
-            </div>
-
+        <!-- 上边导航栏图片 start-->
+        <div class="nav_img">
+                <div class="Ins_logo">
+                    <h3>机构介绍</h3>
+                </div>
 
         </div>
+        <!-- 上边导航栏图片 end-->
 
-        <div class="boxRight">
-            <div class="tit"><a href="#">研究报告</a></div>
-            <div class="detail">
-                <ul>
-                    <li><a href="#">研究报告1 </a></li>
-                    <li><a href="#">研究报告2</a></li>
-                    <li><a href="#">研究报告3</a></li>
-                    <li><a href="#">研究报告4 </a></li>
-                    <li><a href="#">研究报告5 </a></li>
-                    <li><a href="#">研究报告6 </a></li>
-                    <li><a href="#">研究报告7 </a></li>
-                    <li><a href="#">研究报告8 </a></li>
-                    <li><a href="#">研究报告9 </a></li>
-                    <li><a href="#">研究报告10 </a></li>
-                    <li><a href="#">研究报告11</a></li>
-                    <li><a href="#">研究报告12 </a></li>
-                    <li><a href="#">研究报告13</a></li>
-                    <li><a href="#">研究报告14 </a></li>
+        <div class='flexbox'>
+            <div class="boxLeft">
+
+                <div class="navTop">
+                    <div class="image"><img src="../images/img_cont_top.jpg" alt=""></div>
+                    <div class="line"><a href="#">机构介绍</a></div>
+                </div>
+
+                <!--左侧导航栏-->
+                <ul class="itemUl">
+                    <li class="itemLi"><a href="Ins_1.html" >机构简介</a></li>
+                    <li class="itemLi"><a href="Ins_2.html">机构设置</a></li>
+                    <li class="itemLi"><a href="Ins_3.html" >研究方向</a></li>
+                    <li class="itemLi"><a href="Ins_4.html"  id="active">专家团队</a></li>
                 </ul>
+
+                <!--左侧导航栏下面的图片-->
+                <div class="navBottom">
+                    <img src="../images/img_Ins_left_1.jpg" alt="">
+                </div>
+
             </div>
-            <!--分页组件-->
-            <div class="pageBox" id="box"></div>
+            <div class="boxRight">
+
+                <div class="detail_colu">
+                    <div class="colu_name">
+                        <h3>专家团队</h3>
+                    </div>
+                    <div class="colu_line"></div>
+                    <div class="colu_news">
+
+                        
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
+
+
+
+
+    <!-- 内容栏 End -->
     <footer>
         <div class='footer-box'>
             <div class="footer-link">
@@ -162,22 +167,6 @@
             </div>
         </div>
     </footer>
-</div>
-
-<script>
-    /*分页组件初始化*/
-    $('#box').paging({
-        initPageNo: 1, // 初始页码
-        totalPages: 5, //总页数
-        slideSpeed: 600, // 缓动速度。单位毫秒
-        jump: true, //是否支持跳转
-        totalCount: '14条数据',
-        // 条目总数
-        callback: function (page) { // 回调函数
-            console.log(page);
-        }
-    })
-</script>
 </body>
 
 </html>

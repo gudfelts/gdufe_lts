@@ -30,9 +30,11 @@ header {
   position: relative;
   background: #06A3B1;
   /* 一些不支持背景渐变的浏览器 */
+  box-shadow: 0 12px 24px 0 rgba(7, 17, 27, 0.2);
   font-size: 15px;
   -webkit-box-shadow: 10px 10px 50px 10px rgba(7, 17, 27, 0.06);
   box-shadow: 10px 10px 50px 10px rgba(7, 17, 27, 0.06);
+  margin-bottom: 30px;
 }
 
 /*顶部栏logo*/
@@ -146,6 +148,7 @@ a:hover {
 footer {
   width: 100%;
   padding: 36px 0;
+  margin-top: 50px;
   background-color: #f8fafc;
   -webkit-box-shadow: 0 -2px 8px 0 rgba(7, 17, 27, 0.06);
   box-shadow: 0 -2px 8px 0 rgba(7, 17, 27, 0.06);

@@ -31,10 +31,7 @@
 
 /*--内容栏css Start-*/
 
-.boxRight{
-    /* margin-right: 100px; */
-    width: 800px;
-}
+
 .cont
 {
     width: 100%;
@@ -157,7 +154,7 @@
 
 .detail_colu
 {
-    width: 100%;
+    width: 820px;    
     margin: 0 auto;
     margin-bottom: 45px;
 }
