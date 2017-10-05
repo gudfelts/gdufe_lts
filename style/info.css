@@ -5,7 +5,9 @@ body {
 .container {
     background: #FFFFFF;
 }
-
+.test{
+    width: 120px;
+}
 .content {
     padding: 50px;
     box-shadow: 0 6px 6px 0 rgba(7,17,27,0.2)

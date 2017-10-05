@@ -17,12 +17,6 @@ body, div, span, header, footer, nav, section, aside, article, ul, ol, dl, dt, d
   box-sizing: border-box;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 1300px;
-  min-width: 1200px;
-}
-
 /*顶部栏*/
 header {
   width: 100%;
@@ -30,12 +24,21 @@ header {
   position: relative;
   background: #06A3B1;
   /* 一些不支持背景渐变的浏览器 */
-  text-align: center;
   box-shadow: 0 12px 24px 0 rgba(7, 17, 27, 0.2);
   font-size: 15px;
   -webkit-box-shadow: 10px 10px 50px 10px rgba(7, 17, 27, 0.06);
   box-shadow: 10px 10px 50px 10px rgba(7, 17, 27, 0.06);
   margin-bottom: 30px;
+  min-width: 1600px;
+  padding: 0 280px;
+  text-align: center;
+}
+
+.container-types {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 36px 0 48px;
 }
 
 /*顶部栏logo*/
@@ -44,6 +47,7 @@ header {
   padding-left: 20px;
   float: left;
   position: absolute;
+  left: 0;
 }
 
 .logo_img {
@@ -56,14 +60,15 @@ header {
 /*顶部栏导航栏子栏目*/
 .nav_box {
   display: inline-block;
+  margin: 0 auto;
 }
 
 .nav_item {
   float: left;
+  margin: 0 10px;
 }
 
 .nav_item a {
-  padding: 0 20px;
   display: block;
   color: white;
   text-align: center;
@@ -72,7 +77,7 @@ header {
 
 .nav_item > a {
   line-height: 90px;
-  min-width: 130px;
+  width: 100px;
   font-weight: bolder;
 }
 

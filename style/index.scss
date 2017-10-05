@@ -4,12 +4,7 @@ body {
     margin: 0;
     padding: 0;
 }
-.container-types{
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 36px 0 48px;
-}
+
 
 /*共用*/
 /*每个新闻框右上角的title*/
@@ -60,11 +55,11 @@ body {
 /*轮播图banner*/
 
 .banner {
-    width: 100% !important;
+    width: 1200px !important;
     position: relative;
     overflow: auto;
     text-align: center;
-
+    margin: 0 auto;
 
 
     ul li {
@@ -125,7 +120,6 @@ body {
 
 .info {
     margin-top: 50px;
-    width: 100%;
 }
 
 .info-title::after {
