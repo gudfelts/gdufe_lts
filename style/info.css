@@ -1,0 +1,94 @@
+body {
+    background: #F6F4F5;
+}
+
+.container {
+    background: #FFFFFF;
+}
+
+.content {
+    padding: 50px;
+    box-shadow: 0 6px 6px 0 rgba(7,17,27,0.2)
+}
+
+.content-title {
+    display: block;
+    text-align: center;
+}
+
+/*标题*/
+.content-title h3 {
+    display: block;
+    font-size: 18px;
+    line-height: 50px;
+    color: #555;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/*发布日期 作者 浏览次数等*/
+.content-title .tit-info {
+    display: block;
+    color: #928d8d;
+    font-size: 12px;
+}
+
+.post{
+    padding: 20px;
+}
+
+/*上横线*/
+.content-title .tit-info:before {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 504px;
+    background: #666666;
+    margin: 3px auto;
+}
+
+/*下横线*/
+.content-title .tit-info:after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 504px;
+    background: #666666;
+    margin: 3px auto 50px;
+}
+
+.content-main {
+    width: 100%;
+}
+
+.content-main p {
+    display: block;
+    color: #555;
+    font-size: 16px;
+    line-height: 36px;
+    text-indent: 2em;
+}
+
+.content-main img {
+    display: block;
+    margin: 20px auto;
+    width: 53%;
+    height: auto;
+}
+
+/*回到顶部*/
+#goTop {
+    display: none;
+}
+
+#goTop img {
+    position: fixed;
+    bottom: 200px;
+    right: 50px;
+    width: 50px;
+    height: 60px;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    cursor: pointer;
+}
+

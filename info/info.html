@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>流通所新闻</title>
     <link rel="stylesheet" href="../style/common.min.css">
-    <link rel="stylesheet" href="../style/news.css">
-    <link rel="stylesheet" href="../style/navLeft.css">
+    <link rel="stylesheet" href="../style/info.css">
     <script src='../js/jquery-3.2.1.min.js'></script>
     <script src='../js/common.js'></script>
 
-    <!--分页组件-->
-    <script src="../js/paging.min.js"></script>
-    <link rel="stylesheet" href="../style/paging.css">
 </head>
-
 <body>
 <header>
     <div class='logo'>
@@ -93,56 +87,32 @@
 
 </header>
 <div class="container">
-    <!--左侧-->
-    <div class='flexbox'>
-        <div class="boxLeft">
-            <!--左侧导航栏上面的装饰-->
-            <div class="navTop">
-                <div class="image"><img src="../images/academic1.png" alt=""></div>
-                <div class="line"><a href="#">学术交流</a></div>
+    <div class="content">
+        <div class="content-title">
+            <h3>北京大学李伯谦先生来上海大学调研考古与先秦史学科发展情况</h3>
+            <div class="tit-info">
+                <span class="date">发布日期：2017-09-25</span>
+                <span class="post">投稿：聂林媛部门</span>
+                <span class="number">浏览次数：715</span>
             </div>
-
-            <!--左侧导航栏-->
-            <ul class="itemUl">
-                <li class="itemLi"><a href="academic1.html">来访交流</a></li>
-                <li class="itemLi"><a href="academic2.html">调研考察</a></li>
-                <li class="itemLi"><a href="academic3.html">主办年会</a></li>
-                <li class="itemLi"><a href="academic4.html" id="active">流通论坛</a></li>
-            </ul>
-
-            <!--左侧导航栏下面的图片-->
-            <div class="navBottom">
-                <img src="../images/academic2.png" alt="">
-            </div>
-
-
         </div>
 
-        <div class="boxRight">
-            <div class="tit"><a href="#">流通论坛</a></div>
-            <div class="detail">
-                <ul>
-                    <li><a href="#">流通论坛1 </a></li>
-                    <li><a href="#">流通论坛2</a></li>
-                    <li><a href="#">流通论坛3</a></li>
-                    <li><a href="#">流通论坛4 </a></li>
-                    <li><a href="#">流通论坛5 </a></li>
-                    <li><a href="#">流通论坛6 </a></li>
-                    <li><a href="#">流通论坛7 </a></li>
-                    <li><a href="#">流通论坛8 </a></li>
-                    <li><a href="#">流通论坛9 </a></li>
-                    <li><a href="#">流通论坛10 </a></li>
-                    <li><a href="#">流通论坛11</a></li>
-                    <li><a href="#">流通论坛12 </a></li>
-                    <li><a href="#">流通论坛13</a></li>
-                    <li><a href="#">流通论坛14 </a></li>
-                </ul>
-            </div>
-            <!--分页组件-->
-            <div class="pageBox" id="box"></div>
+        <div class="content-main">
+            <p>
+                9月24日上午，上海大学副校长段勇陪同我国著名考古学家、中国考古学会常务理事、前北京大学考古文博学院院长李伯谦先生在上海大学文学院调研考古与古代文明学科发展情况，文学院副院长张童心、历史系主任宁镇疆教授，以及考古与古代文明方向的年轻教师和研究生参加了此次活动。
+            </p>
+            <img src="../images/info1.jpg" alt="">
+            <p>段勇副校长首先感谢李伯谦先生对上海大学考古与先秦史学科发展的支持，表示上海大学考古与古代文明学科拥有良好的学科基础，未来将建成立足上海、面向世界的考古学科，希望能够得到考古学界的关注和帮助。</p>
+            <img src="../images/info2.jpg" alt="">
+            <p>张童心和宁镇疆教授分别对考古学科和先秦史学科的发展情况进行了简单介绍。 </p>
+            <p>
+                李伯谦先生随后按照考古学的发展历史和发展趋势，指出上海大学考古与先秦史学科发展，打通了考古学与历史学之间的隔阂，强化了考古学科的史学训练，有助于考古学科的发展。李伯谦先生还对上海大学考古学科未来在发展科技考古的过程中，要正确认识科技考古与传统考古之间的关系，认识科技、考古与史学之间的关系等问题提出自己的看法。
+            </p>
+            <p>年轻教师和研究生就各自关心的问题与李伯谦先生展开了交流与对话。（魏峭巍）
+            </p>
         </div>
     </div>
-
+    <div id="goTop"><img src="../images/goTop.png" alt=""></div>
 </div>
 <footer>
     <div class='footer-box'>
@@ -165,20 +135,7 @@
         </div>
     </div>
 </footer>
-<script>
-    /*分页组件初始化*/
-    $('#box').paging({
-        initPageNo: 1, // 初始页码
-        totalPages: 5, //总页数
-        slideSpeed: 600, // 缓动速度。单位毫秒
-        jump: true, //是否支持跳转
-        totalCount: '14条数据',
-        // 条目总数
-        callback: function (page) { // 回调函数
-            console.log(page);
-        }
-    })
-</script>
+<!--回到顶部-->
+<script src="../js/goTop.js"></script>
 </body>
-
 </html>
