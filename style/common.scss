@@ -17,12 +17,6 @@ body, div, span, header, footer, nav, section, aside, article, ul, ol,dl, dt, dd
             box-sizing: border-box;
 }
 
-.container{
-    
-    // margin: 0 auto;
-    // // max-width: 1300px;
-    // width: 1200px;
-}
 
 /*顶部栏*/
 
@@ -38,11 +32,11 @@ header {
             box-shadow: 10px 10px 50px 10px rgba(7,17,27,.06);
     margin-bottom: 30px;
     min-width: 1600px;
-    padding: 0 280px;
+    padding: 0 280px  0 360px;
     text-align: center;
 }
 
-
+//子容器
 
 .container-types{
     width:1200px;

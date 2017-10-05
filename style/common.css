@@ -30,7 +30,7 @@ header {
   box-shadow: 10px 10px 50px 10px rgba(7, 17, 27, 0.06);
   margin-bottom: 30px;
   min-width: 1600px;
-  padding: 0 280px;
+  padding: 0 280px  0 360px;
   text-align: center;
 }
 

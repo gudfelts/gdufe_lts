@@ -79,18 +79,24 @@ body {
 }
 
 /*回到顶部*/
-#goTop {
-    display: none;
-}
 
-#goTop img {
+#goTop{
     position: fixed;
-    bottom: 200px;
-    right: 50px;
-    width: 50px;
-    height: 60px;
-    opacity: 0.6;
-    filter: alpha(opacity=60);
+    bottom: 300px;
+    right: 70px;
+    width: 70px;
+    height: 70px;
+    opacity: 0;
+    background: url("../images/icons/goTop.png") no-repeat center;
+    background-size: 60% 60%;
+    filter: alpha(opacity=0);
     cursor: pointer;
+    transition: opacity .4s,background-color .4s;
+    border-radius: 50%;
+    border: 1px solid gray;    
+
+}
+#goTop:hover{
+    background-color: #BEBEBE;
 }
 
