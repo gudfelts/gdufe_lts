@@ -2,40 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdefc801-9376-4ee6-a067-7613bd82226c" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/style/navLeft.css" afterPath="$PROJECT_DIR$/style/layoutTwoCol.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/info/info.html" afterPath="$PROJECT_DIR$/info/info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Ins_1.html" afterPath="$PROJECT_DIR$/pages/Ins_1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Ins_2.html" afterPath="$PROJECT_DIR$/pages/Ins_2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Ins_3.html" afterPath="$PROJECT_DIR$/pages/Ins_3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/Ins_4.html" afterPath="$PROJECT_DIR$/pages/Ins_4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/academic1.html" afterPath="$PROJECT_DIR$/pages/academic1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/academic2.html" afterPath="$PROJECT_DIR$/pages/academic2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/academic3.html" afterPath="$PROJECT_DIR$/pages/academic3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/academic4.html" afterPath="$PROJECT_DIR$/pages/academic4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/archi1.html" afterPath="$PROJECT_DIR$/pages/archi1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/archi2.html" afterPath="$PROJECT_DIR$/pages/archi2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/archi3.html" afterPath="$PROJECT_DIR$/pages/archi3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/construct1.html" afterPath="$PROJECT_DIR$/pages/construct1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/construct2.html" afterPath="$PROJECT_DIR$/pages/construct2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/consult1.html" afterPath="$PROJECT_DIR$/pages/consult1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/consult2.html" afterPath="$PROJECT_DIR$/pages/consult2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/consult3.html" afterPath="$PROJECT_DIR$/pages/consult3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/news1.html" afterPath="$PROJECT_DIR$/pages/news1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/news2.html" afterPath="$PROJECT_DIR$/pages/news2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/news3.html" afterPath="$PROJECT_DIR$/pages/news3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/research1.html" afterPath="$PROJECT_DIR$/pages/research1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/research2.html" afterPath="$PROJECT_DIR$/pages/research2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/research3.html" afterPath="$PROJECT_DIR$/pages/research3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/Ins.css" afterPath="$PROJECT_DIR$/style/Ins.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/archi/archi2.scss" afterPath="$PROJECT_DIR$/style/archi/archi2.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/common.css" afterPath="$PROJECT_DIR$/style/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/common.min.css" afterPath="$PROJECT_DIR$/style/common.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/common.scss" afterPath="$PROJECT_DIR$/style/common.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/index.css" afterPath="$PROJECT_DIR$/style/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/index.min.css" afterPath="$PROJECT_DIR$/style/index.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/index.scss" afterPath="$PROJECT_DIR$/style/index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/info.css" afterPath="$PROJECT_DIR$/style/info.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -52,33 +20,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+            <state relative-caret-position="191">
+              <caret line="21" column="74" lean-forward="false" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="archi1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/archi1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="18" column="837" lean-forward="false" selection-start-line="18" selection-start-column="837" selection-end-line="18" selection-end-column="837" />
-              <folding>
-                <marker date="1507195578258" expanded="true" signature="3449:3457" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ins_1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/ins_1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="18" column="543" lean-forward="false" selection-start-line="18" selection-start-column="543" selection-end-line="18" selection-end-column="543" />
-              <folding>
-                <marker date="1507195577985" expanded="true" signature="3461:3473" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -86,11 +30,9 @@
       <file leaf-file-name="info.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/info/info.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-481">
-              <caret line="12" column="621" lean-forward="false" selection-start-line="12" selection-start-column="621" selection-end-line="12" selection-end-column="621" />
-              <folding>
-                <marker date="1507195577379" expanded="true" signature="3267:3275" ph="..." />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -101,7 +43,7 @@
             <state relative-caret-position="191">
               <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
-                <marker date="1507195577604" expanded="true" signature="3449:3457" ph="..." />
+                <marker date="1507196074275" expanded="true" signature="3452:3460" ph="..." />
               </folding>
             </state>
           </provider>
@@ -122,6 +64,7 @@
       <find>&lt;a href='pages/news1.html'&gt;流通所新闻&lt;/a&gt;</find>
       <find>&lt;a href=''&gt;基地资讯&lt;/a&gt;</find>
       <find>&lt;header&gt;[\s\S]*?&lt;/header&gt;</find>
+      <find>images/logo.png</find>
     </findStrings>
     <replaceStrings>
       <replace>layoutTwoCol</replace>
@@ -135,6 +78,7 @@
       <replace>&lt;a href='news1.html'&gt;流通所新闻&lt;/a&gt;</replace>
       <replace>&lt;a href='news2.html'&gt;基地资讯&lt;/a&gt;</replace>
       <replace>&lt;header&gt;        &lt;div class='logo'&gt;            &lt;a href=&quot;index.html&quot;&gt;                &lt;img src='images/logo.png' alt=&quot;流通研究所&quot; class='logo_img'&gt;            &lt;/a&gt;        &lt;/div&gt;            &lt;ul class='nav_box'&gt;                &lt;li class='nav_item'&gt;                    &lt;a href=''&gt;                        机构介绍                        &lt;i class='nav_icon'&gt;&lt;/i&gt;                    &lt;/a&gt;                    &lt;div class='item_content'&gt;                        &lt;a href='ins_1.html'&gt;简介&lt;/a&gt;                        &lt;a href='ins_2.html'&gt;机构设置&lt;/a&gt;                        &lt;a href='ins_3.html'&gt;研究方向&lt;/a&gt;                        &lt;a href='ins_4.html'&gt;专家团队&lt;/a&gt;                    &lt;/div&gt;                &lt;/li&gt;                &lt;li class='nav_item'&gt;                    &lt;a href=''&gt;                        科研资讯                        &lt;i class='nav_icon'&gt;&lt;/i&gt;                                            &lt;/a&gt;                    &lt;div class='item_content'&gt;                        &lt;a href='news1.html'&gt;流通所新闻&lt;/a&gt;                        &lt;a href='news2.html'&gt;基地资讯&lt;/a&gt;                        &lt;a href='new3.html'&gt;媒体报道&lt;/a&gt;                    &lt;/div&gt;                &lt;/li&gt;                &lt;li class='nav_item'&gt;                    &lt;a href=''&gt;科学研究&lt;i class='nav_icon'&gt;&lt;/i&gt;&lt;/a&gt;                    &lt;div class='item_content'&gt;                        &lt;a href='research1.html'&gt;课题研究&lt;/a&gt;                        &lt;a href='research2.html'&gt;课题招标&lt;/a&gt;                        &lt;a href='research3.html'&gt;成果影响&lt;/a&gt;                    &lt;/div&gt;                &lt;/li&gt;                &lt;li class='nav_item'&gt;                    &lt;a href=''&gt;科研成果&lt;i class='nav_icon'&gt;&lt;/i&gt;&lt;/a&gt;                    &lt;div class='item_content'&gt;                        &lt;a href='archi1.html'&gt;学术论文&lt;/a&gt;                        &lt;a href='archi2.html'&gt;著作&lt;/a&gt;                        &lt;a href='archi3.html'&gt;研究报告&lt;/a&gt;                    &lt;/div&gt;                &lt;/li&gt;                &lt;li class='nav_item'&gt;                    &lt;a href=''&gt;学术交流&lt;i class='nav_icon'&gt;&lt;/i&gt;&lt;/a&gt;                    &lt;div class='item_content'&gt;                        &lt;a href='academic1.html'&gt;来访交流&lt;/a&gt;                        &lt;a href='academic2.html'&gt;调研考察&lt;/a&gt;                        &lt;a href='academic3.html'&gt;主办年会&lt;/a&gt;                        &lt;a href='academic4.html'&gt;流通论坛&lt;/a&gt;                    &lt;/div&gt;                &lt;/li&gt;                &lt;li class='nav_item'&gt;                    &lt;a href=''&gt;咨询培训&lt;i class='nav_icon'&gt;&lt;/i&gt;&lt;/a&gt;                    &lt;div class='item_content'&gt;                        &lt;a href='consult1.html'&gt;咨询顾问&lt;/a&gt;                        &lt;a href='consult2.html'&gt;企业策划&lt;/a&gt;                        &lt;a href='consult3.html'&gt;专家培训&lt;/a&gt;                    &lt;/div&gt;                &lt;/li&gt;                &lt;li class='nav_item'&gt;                    &lt;a href=''&gt;智库建设&lt;i class='nav_icon'&gt;&lt;/i&gt;&lt;/a&gt;                    &lt;div class='item_content'&gt;                        &lt;a href='construct1.html'&gt;名家百人讲座&lt;/a&gt;                        &lt;a href='construct2.html'&gt;智库动态&lt;/a&gt;                    &lt;/div&gt;                &lt;/li&gt;            &lt;/ul&gt;    &lt;/header&gt;</replace>
+      <replace>../images/logo.png</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -165,7 +109,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="262" />
     <option name="width" value="1626" />
     <option name="height" value="1040" />
@@ -241,17 +185,17 @@
       <option name="presentableId" value="Default" />
       <updated>1507194039371</updated>
       <workItem from="1507194059790" duration="973000" />
-      <workItem from="1507195289503" duration="289000" />
+      <workItem from="1507195289503" duration="783000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1262000" />
+    <option name="totallyTimeSpent" value="1756000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -268,6 +212,24 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -293,17 +255,17 @@
         <state relative-caret-position="1848">
           <caret line="44" column="45" lean-forward="true" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
           <folding>
-            <marker date="1507195578258" expanded="true" signature="3449:3457" ph="..." />
+            <marker date="1507196074699" expanded="true" signature="3452:3460" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/ins_1.html">
+    <entry file="file://$PROJECT_DIR$/pages/Ins_1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1344">
           <caret line="32" column="53" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="53" />
           <folding>
-            <marker date="1507195577985" expanded="true" signature="3461:3473" ph="..." />
+            <marker date="1507196074495" expanded="true" signature="3464:3476" ph="..." />
           </folding>
         </state>
       </provider>
@@ -312,9 +274,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
           <caret line="25" column="43" lean-forward="false" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="43" />
-          <folding>
-            <marker date="1507195577379" expanded="true" signature="3267:3275" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -332,31 +292,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/ins_2.html">
+    <entry file="file://$PROJECT_DIR$/pages/Ins_2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="35" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/ins_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="18" column="543" lean-forward="false" selection-start-line="18" selection-start-column="543" selection-end-line="18" selection-end-column="543" />
-          <folding>
-            <marker date="1507195577985" expanded="true" signature="3461:3473" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/archi1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="18" column="837" lean-forward="false" selection-start-line="18" selection-start-column="837" selection-end-line="18" selection-end-column="837" />
-          <folding>
-            <marker date="1507195578258" expanded="true" signature="3449:3457" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -365,25 +305,43 @@
         <state relative-caret-position="191">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <marker date="1507195577604" expanded="true" signature="3449:3457" ph="..." />
+            <marker date="1507196074275" expanded="true" signature="3452:3460" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/archi1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="18" column="837" lean-forward="false" selection-start-line="18" selection-start-column="837" selection-end-line="18" selection-end-column="837" />
+          <folding>
+            <marker date="1507196074699" expanded="true" signature="3452:3460" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/Ins_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="18" column="543" lean-forward="false" selection-start-line="18" selection-start-column="543" selection-end-line="18" selection-end-column="543" />
+          <folding>
+            <marker date="1507196074495" expanded="true" signature="3464:3476" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/info/info.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-481">
-          <caret line="12" column="621" lean-forward="false" selection-start-line="12" selection-start-column="621" selection-end-line="12" selection-end-column="621" />
-          <folding>
-            <marker date="1507195577379" expanded="true" signature="3267:3275" ph="..." />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state relative-caret-position="191">
+          <caret line="21" column="74" lean-forward="false" selection-start-line="21" selection-start-column="74" selection-end-line="21" selection-end-column="74" />
           <folding />
         </state>
       </provider>
