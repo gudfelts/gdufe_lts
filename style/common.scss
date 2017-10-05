@@ -31,7 +31,7 @@ header {
     height: 90px;
     position: relative;
     background:$green; /* 一些不支持背景渐变的浏览器 */  
-   
+    text-align: center;
     box-shadow: 0 12px 24px 0 rgba(7,17,27,0.2);
     font-size: 15px;
     -webkit-box-shadow: 10px 10px 50px 10px rgba(7,17,27,.06);
@@ -50,12 +50,13 @@ header {
     height: 100%;
     padding-left:20px;
     float: left;
-    margin-right: 50px;
+    position: absolute;
 }
 
 .logo_img {
-    width: 200px;
-    height: 100%;
+    width: 300px;
+    height: 200%;
+    margin-top: -45px;
 }
 
 
@@ -63,7 +64,12 @@ header {
 
 
 /*顶部栏导航栏子栏目*/
-
+.nav_box{
+    // position: absolute;
+    // margin: 0 auto;
+    display: inline-block;
+    // display: block;
+}
 .nav_item {
    
     float: left;
