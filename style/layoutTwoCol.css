@@ -1,9 +1,7 @@
 
 /*使用flex*/
-.flexbox {
+.container-types {
    
-    margin-top: 60px;
-    width: 100%;
     overflow: hidden;
 }
 .boxLeft {
