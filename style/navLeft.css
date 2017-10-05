@@ -1,18 +1,12 @@
 
 /*使用flex*/
 .flexbox {
-    /* display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between; */
+   
     margin-top: 60px;
     width: 100%;
     overflow: hidden;
 }
 .boxLeft {
-    display: inline-block;
     float: left;
     width: 280px;
     margin-right:100px; 
