@@ -280,19 +280,22 @@
 }
 .list_item:hover > .list_img
 {
-    transform: scale(.8);
-    transition: transform 0.5s;
+    transform: scale(.86);
+    transition: transform 0.8s;
     transform-origin: 50% top;
     
 }
 .list_item:hover > .list_content{
     top:-10px;
-    transition: top 1s;
+    transition: top 0.8s;
+    transition-timing-function:ease-out;
     overflow: visible;
+  
     
 }
 .list_item:hover > .list_name,.list_item:hover > .list_title
 {
+    transition: transform 0.8s;
     display: none;
 }
 
@@ -305,7 +308,7 @@
 .colu_news
  {
     padding: 50px;
-    box-shadow: -6px 6px 4px 1px rgba(7,17,27,0.2)
+   
 }
 .colu_news p
 {
