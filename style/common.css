@@ -123,7 +123,6 @@ a:hover {
 /*导航栏子栏目*/
 .item_content {
   display: none;
-  opacity: 0;
   position: absolute;
   background-color: #06A3B1;
   top: 100%;
