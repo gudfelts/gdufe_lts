@@ -300,4 +300,27 @@
    /*-- 内容栏新闻css end--*/
 
 
+   /* -- Ins 机构介绍内容css  Start--*/
+
+.colu_news
+ {
+    padding: 50px;
+    box-shadow: -6px 6px 4px 1px rgba(7,17,27,0.2)
+}
+.colu_news p
+{
+    text-indent: 2em;
+    font-size: 18px;
+    color:#565656;
+    line-height: 35px;
+}
+
+
+
+
+   /* -- Ins 机构介绍内容css  end--*/
+
+
+
+
 /*--内容栏css end--*/
