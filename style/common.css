@@ -24,6 +24,7 @@ header {
   position: relative;
   background: #06A3B1;
   /* 一些不支持背景渐变的浏览器 */
+  -webkit-box-shadow: 0 12px 24px 0 rgba(7, 17, 27, 0.2);
   box-shadow: 0 12px 24px 0 rgba(7, 17, 27, 0.2);
   font-size: 15px;
   -webkit-box-shadow: 10px 10px 50px 10px rgba(7, 17, 27, 0.06);
@@ -123,36 +124,31 @@ a:hover {
 .item_content {
   display: none;
   opacity: 0;
-  padding: 12px;
   position: absolute;
-  background-color: #006771;
-  top: 110%;
+  background-color: #06A3B1;
+  top: 100%;
   z-index: 1000;
   -webkit-transition: transform .5s;
   -webkit-transition: -webkit-transform .5s;
   transition: -webkit-transform .5s;
   transition: transform .5s;
   transition: transform .5s, -webkit-transform .5s;
-  margin-left: -10px;
+  margin-left: -20px;
+  -webkit-transition: height .4s;
+  transition: height .4s;
   /*导航栏子栏目中的小箭头*/
 }
 
-.item_content::before {
-  content: '';
-  display: inline-block;
-  border-bottom: 10px solid #006771;
-  border-top: 10px solid transparent;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  -webkit-transform: translate(-50%, -100%);
-  transform: translate(-50%, -100%);
+.item_content a {
+  font-size: 15px;
+  padding: 12px 100px 12px 20px;
+  width: 100%;
+  text-align: left;
+  display: block;
 }
 
-.item_content a {
-  margin: 12px 0;
+.item_content a:hover {
+  background-color: #006771;
 }
 
 /*底部栏*/
