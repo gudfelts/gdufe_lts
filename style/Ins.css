@@ -275,13 +275,13 @@
     top:0;
 }
 .list_item:hover{
-    background-color: #bebebe;
+    background-color: rgba(250, 250, 250, 0.85);
   
 }
 .list_item:hover > .list_img
 {
     transform: scale(.8);
-    transition: transform 1s;
+    transition: transform 0.5s;
     transform-origin: 50% top;
     
 }
