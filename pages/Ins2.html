@@ -3,15 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>流通所新闻</title>
-    <link rel="stylesheet" href="../style/common.min.css">
-    <link rel="stylesheet" href="../style/news.css">
-    <link rel="stylesheet" href="../style/layoutTwoCol.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lts</title>
     <script src='../js/jquery-3.2.1.min.js'></script>
     <script src='../js/common.js'></script>
-    <!--分页组件-->
-    <script src="../js/paging.min.js"></script>
-    <link rel="stylesheet" href="../style/paging.css">
+    <link rel="stylesheet" href="../style/common.min.css">
+    <link rel="stylesheet" href="../style/layoutTwoCol.css">
+    <link rel="stylesheet" href="../style/Ins.css">
+
+
 </head>
 
 <body>
@@ -95,101 +96,57 @@
         </ul>
     </header>
     <div class="container">
+        <div class='container-types'>
+            <div class="boxLeft">
 
-        <!--左侧-->
-        <div class="container-types">
-            <div class='boxLeft'>
-                <!--左侧导航栏上面的装饰-->
                 <div class="navTop">
                     <div class="image">
-                        <img src="../images/news1.png" alt="">
+                        <img src="../images/ins1.jpg" alt="">
                     </div>
                     <div class="line">
-                        <a href="#">科研资讯</a>
+                        <a href="#">机构介绍</a>
                     </div>
                 </div>
 
                 <!--左侧导航栏-->
                 <ul class="itemUl">
-                    <li class="itemLi li1">
-                        <a href="news1.html" id="active">流通所新闻</a>
+                    <li class="itemLi">
+                        <a href="ins1.html">机构简介</a>
                     </li>
-                    <li class="itemLi li2">
-                        <a href="news2.html">基地资讯</a>
+                    <li class="itemLi">
+                        <a href="ins2.html" id="active">机构设置</a>
                     </li>
-                    <li class="itemLi li3">
-                        <a href="news3.html">媒体报道</a>
+                    <li class="itemLi">
+                        <a href="ins3.html">研究方向</a>
+                    </li>
+                    <li class="itemLi">
+                        <a href="ins4.html">专家团队</a>
                     </li>
                 </ul>
 
                 <!--左侧导航栏下面的图片-->
                 <div class="navBottom">
-                    <img src="../images/news2.png" alt="">
+                    <img src="../images/ins2.jpg" alt="">
                 </div>
-            </div>
-            <div class='boxRight'>
-                <!--详情页-->
 
-                <div class="tit">
-                    <a href="#">流通所新闻</a>
-                </div>
-                <div class="detail">
-                    <ul>
-                        <li>
-                            <a href="#">“一带一路”背景下广州商贸如何走出去——王先庆教授与广州商业总会荀会长交流合作
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">重磅：“华南商界名家百人系列讲座”下周开启——广百物流高艺林董事长首谈物流成本</a>
-                        </li>
-                        <li>
-                            <a href="#">互联网背景下生鲜食品流通体系的创新与探索——温氏生鲜食品流通体系产学研合作第三次工作交流会召开
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">王先庆出席2017全国高校贸易经济教学研究会年会</a>
-                        </li>
-                        <li>
-                            <a href="#">王先庆银川给商务部培训中心专题讲座</a>
-                        </li>
-                        <li>
-                            <a href="#">广东财经大学流通经济研究所与湖北康华智慧物流园成立商贸物流产学研基地
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">王先庆：新时期广州商贸业发展大趋势</a>
-                        </li>
-                        <li>
-                            <a href="#">王先庆：产业轻化转型 引领区域创新</a>
-                        </li>
-                        <li>
-                            <a href="#">王先庆等调研广东河源坚基购物中心</a>
-                        </li>
-                        <li>
-                            <a href="#">王先庆出席中国商业经济学会2017第一次副会长会议</a>
-                        </li>
-                        <li>
-                            <a href="#">广东省决策咨询研究基地“商贸物流与电子商务研究中心”获批
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">王先庆出席2017广州白云新城CBD物业发展论坛并作专题报告</a>
-                        </li>
-                        <li>
-                            <a href="#">王先庆给三水校区流通经济学社作讲座</a>
-                        </li>
-                        <li>
-                            <a href="#">广州跨境电子商务学术研讨会广州召开</a>
-                        </li>
-                    </ul>
-                </div>
-                <!--分页组件-->
-                <div class="pageBox" id="box"></div>
             </div>
+            <div class="boxRight">
+
+                <div class="detail_colu">
+                    <div class="colu_name">
+                        <h3>机构设置</h3>
+                    </div>
+                    <div class="colu_line"></div>
+                    <div class="colu_news">
+
+
+                    </div>
+                </div>
+            </div>
+
         </div>
-
-
     </div>
+    <!-- 内容栏 End -->
     <footer>
         <div class='footer-box'>
             <div class="footer-link">
@@ -211,20 +168,6 @@
             </div>
         </div>
     </footer>
-    <script>
-        /*分页组件初始化*/
-        $('#box').paging({
-            initPageNo: 1, // 初始页码
-            totalPages: 5, //总页数
-            slideSpeed: 600, // 缓动速度。单位毫秒
-            jump: true, //是否支持跳转
-            totalCount: '14条数据',
-              // 条目总数
-            callback: function (page) { // 回调函数
-                console.log(page);
-            }
-        });
-    </script>
 </body>
 
 </html>
