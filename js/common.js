@@ -5,8 +5,8 @@ function showDiv(obj) {
 function hideDiv(obj) {
   obj.hide(0).css("display", "none");
 }
-function goTop(){
-  var goTop = document.getElementById("goTop");
+function toTop(){
+  var toTopBtn = document.getElementById("goTop");
   
   //当浏览器卷去的高度超过一屏幕才显示回到顶部，否则隐藏
       function computedDisplay() {
@@ -15,16 +15,16 @@ function goTop(){
           //一屏幕高度
           var curHeight = document.documentElement.clientHeight - 200 || document.body.clientHeight;
   
-          // goTop.style.display = curTop > curHeight ? "block" : "none";
-          goTop.style.opacity = curTop > curHeight ? "1" : "0";
+          // toTopBtn.style.display = curTop > curHeight ? "block" : "none";
+          toTopBtn.style.opacity = curTop > curHeight ? "1" : "0";
       }
   
       window.onscroll = computedDisplay;   //不论鼠标拖动还是方向键还是JS控制都会有反馈
   
-      goTop.onclick = function () {
+      toTopBtn.onclick = function () {
           //当点击的时候，让go消失,由于向上滚时，又触发了onscroll事件，为block，需要先屏蔽该监听，否则会同时触发onscroll
           // this.style.display = "none";
-          goTop.style.opacity = '0';
+          toTopBtn.style.opacity = '0';
           window.onscroll = null;  //取消绑定一下下
           //回到顶部，总时间duration500ms，频率interval一次走10ms
           //总距离target：当前位置-目标位置  步长step：每一次走的距离
@@ -55,5 +55,5 @@ $().ready(function(e) {
     hideDiv($(this).children(".item_content"), true);
   });
 
-  goTop();
+  toTop();
 });

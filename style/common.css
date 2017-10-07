@@ -114,7 +114,7 @@ header {
 
 /*访问导航栏变色*/
 a:hover {
-  color: #ebaa6e;
+  color: #ebaa6e !important;
 }
 
 /*导航栏箭头*/
