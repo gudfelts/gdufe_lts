@@ -2,9 +2,9 @@
 
 .detail
 {
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
-    box-shadow: -5px 10px 6px 0 #B5B0B0;
+   
     background:rgba(255, 255, 255, 0.97);
 }
 
@@ -15,9 +15,8 @@
 }
 .cont
 {
-    float: left;
     text-align: center;
-    margin: 60px 10px;
+    margin: 15px auto;
     line-height: 30px;
 }
 
@@ -28,11 +27,18 @@
     display: block;
 }
 
+.top-img
+{
+    width: 200px;
+    margin:0 auto;
 
+}
 .top img 
 {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 250px;
+    
+   
 
 }
 
@@ -60,15 +66,11 @@
     color: #8A7A7A;
     display: block;
     width: 400px;
+    margin: 0 auto;
 
 }
 
-.top::after
-{
-    content: '';
-    display: block;
-    border-bottom: 4px solid #D37575;
-}
+
 
 .main
 {
