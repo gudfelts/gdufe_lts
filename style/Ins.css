@@ -156,7 +156,7 @@
 {
     width: 820px;    
     margin: 0 auto;
-    margin-bottom: 45px;
+    padding: 15px 0px 35px 0;
 }
 
 .colu_name h3
@@ -167,10 +167,11 @@
 .colu_line
 {
     
-    margin-top: 14px;
-    margin-bottom: 14px;
+    margin: 15px 0;
     border-bottom: 4px solid #8c0000;
 }
+
+
 
 .colu_news_list li ::before
 {
@@ -305,7 +306,7 @@
 
    /* -- Ins 机构介绍内容css  Start--*/
 
-.colu_news
+.colu_info
  {
     padding: 50px;
    
@@ -316,6 +317,12 @@
     font-size: 18px;
     color:#565656;
     line-height: 35px;
+}
+
+.colu_info img 
+{
+    width: 820px;
+    height: 820px;
 }
 
 
