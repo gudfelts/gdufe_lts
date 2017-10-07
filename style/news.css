@@ -4,9 +4,11 @@
 }
 .boxRight{
     width: 800px;
-    border: 1px solid rgb(230, 230, 230);
+    /* border: 1px solid rgb(230, 230, 230); */
 }
-
+.part-title{
+    margin-top: 10px;
+}
 .tit{
     margin-top: 12.8px;
     margin-left: 38.4px;
