@@ -3,7 +3,7 @@
  * @Author: 肖志豪 
  * @Date: 2017-10-06 11:08:26 
  * @Last Modified by: 肖志豪
- * @Last Modified time: 2017-10-08 17:33:14
+ * @Last Modified time: 2017-10-08 22:09:32
  */
 .box2-mask {
   position: absolute;
@@ -38,12 +38,17 @@ body {
 .toMore::after {
   content: '';
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   margin-left: 10px;
+  margin-bottom: 2px;
   background-image: url("../images/icons/toMore.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
+}
+
+.part-title .toMore {
+  float: right;
 }
 
 /*轮播图banner*/
