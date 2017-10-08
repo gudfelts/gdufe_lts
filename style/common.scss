@@ -16,7 +16,10 @@ body, div, span, header, footer, nav, section, aside, article, ul, ol,dl, dt, dd
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
-
+img{
+     /*兼容ie*/
+     border: 0px;
+}
 /*共用*/
 /*每个框左上角的title*/
 
@@ -82,12 +85,16 @@ header {
     float: left;
     position: absolute;
     left: 0;
+   
 }
 
 .logo_img {
     width: 300px;
     height: 200%;
     margin-top: -45px;
+     /*兼容ie*/
+     border: 0px;
+    
 }
 
 
@@ -124,10 +131,13 @@ header {
 /*访问导航栏变色*/
 
 a:hover {
-    color: rgb(235, 170, 110);
+    color: rgb(235, 170, 110) !important;
     
 }
-
+/*内容可能会溢出*/
+.contont-overflow{
+    overflow:hidden;
+}
 
 /*导航栏箭头*/
 

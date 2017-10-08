@@ -28,10 +28,8 @@
 
 
 .detail ul{
-    /* margin-top: 38.4px;
-    margin-left: 64px; */
-    /* padding-right: 8px; */
-    width: 90%;
+   
+    width: 100%;
     margin: 10px auto;
 }
 
@@ -43,7 +41,7 @@
 
   .detail ul li:before{
     content: "\02022";
-    color: #FF9D54;
+    color: #006771;
     font-size: 25.6px;
 }
 
