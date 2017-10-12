@@ -7,20 +7,19 @@ function hideDiv(obj) {
 }
 function computedDisplay(toTopBtn) {
   //滚动的高度
+  var toTopBtn = document.getElementById("goTop");
   var curTop = document.documentElement.scrollTop || document.body.scrollTop;
   //一屏幕高度
   var curHeight =
     document.documentElement.clientHeight - 200 || document.body.clientHeight;
-
-  // toTopBtn.style.display = curTop > curHeight ? "block" : "none";
-  toTopBtn.style.opacity = curTop > curHeight ? "1" : "0";
+  toTopBtn.style.display = curTop > curHeight ? "block" : "none";
+  
 
   window.onscroll = computedDisplay; //不论鼠标拖动还是方向键还是JS控制都会有反馈
 
   toTopBtn.onclick = function() {
     //当点击的时候，让go消失,由于向上滚时，又触发了onscroll事件，为block，需要先屏蔽该监听，否则会同时触发onscroll
-    // this.style.display = "none";
-    toTopBtn.style.opacity = "0";
+    this.style.display = "none";
     window.onscroll = null; //取消绑定一下下
     //回到顶部，总时间duration500ms，频率interval一次走10ms
     //总距离target：当前位置-目标位置  步长step：每一次走的距离

@@ -1,0 +1,46 @@
+
+#goTop
+{
+   
+    position: fixed;
+    bottom: 60px;
+    right: 40px;
+    width: 52px;
+    height: 54px;
+    background: url("../images/gotop.png") no-repeat;
+    background-size: 100% 100%;
+    filter: alpha(opacity=0);
+    cursor: pointer;
+    transition: opacity .4s,background-color .4s;
+    text-align: center;
+    
+}
+
+#goTop span
+{
+  font-size: 10px;
+  display: inline-block;
+  width: 30px;
+  height: 30px; 
+  display: none;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+
+#goTop:hover >span
+{
+    display: block;
+    color: white;
+    
+}
+
+#goTop:hover
+{
+    background: #983C3C;
+}
+
+
+
+
+
