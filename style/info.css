@@ -128,7 +128,6 @@ article{
     right: 70px;
     width: 70px;
     height: 70px;
-    opacity: 0;
     background: url("../images/icons/goTop.png") no-repeat center;
     background-size: 60% 60%;
     filter: alpha(opacity=0);
