@@ -248,63 +248,47 @@ body {
 }
 
 .box2-box{
-    background-color: #6AC7CE;
     display: inline-block;
     margin: 0 auto;    
     height: 250px;
-    @include borderRadius(10px);
-    -webkit-box-shadow: 0 12px 24px 0 rgba(7,17,27,.2);
-            box-shadow: 0 12px 24px 0 rgba(7,17,27,.2);
-    overflow: hidden;    
+    
 }
 .box2-item{
-    width:240px;
-    height: 50%;
+    width:340px;
+    height: 20%;
     float: left;
-    padding: 25px 20px;
     font-size: 18px;
     border: 1px solid white;
     border-bottom: 0;
     border-left: 0;
+    margin: 7px;
     position: relative;
-    
-    > p{
-        display: -webkit-box;
-        -webkit-box-orient: vertical;
-        -webkit-line-clamp: 3;
-        overflow: hidden;
-        height: 100%;
-        color: white;
-    
-    }
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    padding-left: 20px;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    box-sizing: border-box;
    
-    &:hover > p{
-        opacity: 0;
-    }
-    /*幕布动画效果*/
-    &:hover > .box2-mask{
-        opacity: 1;
-    }
+   &::before{
+       content: '';
+       display: block;
+       width: 10px;
+       height: 10px;
+       border-radius: 50%;
+       background-color:   #006771;   
+       position: absolute;
+       top: 5px; 
+       left: 0px; 
+   }
+   
 }
 .box2-item:nth-child(3),.box2-item:nth-child(6){
     border-right: 0;
-    
 }
 
 
-/*幕布*/
-.box2-mask{
-    background: hsla(0,0%,100%,.25) border-box;
-    @extend %allcover;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    -webkit-transition: opacity .4s;
-    transition: opacity .4s;
-    p{
-        @extend %center;
-    }
-}
+
 /*mix的右边框*/
 
 .mixRight {
@@ -381,89 +365,30 @@ body {
 
 
 /*咨询培训 Consultation training*/
+.bottom-block{
+    height: 550px;
+}
 .train-title::after{
     content: 'Consultation Training';
 }
-.train{
-    position: relative;
+.contruction-title::after{
+    content: 'Contruction';
 }
-.card-box{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -ms-flex-flow: wrap;
-        flex-flow: wrap;
+.train,.contruction{
+    float: left;
+    width: 42%;
+    margin: 48px;
 }
-.index-card{
-    width: 300px;
-    height: 90px;
+.train-box{
+    width: 90%;
+    margin: 0 auto;
+}
+.train-item{
     display: inline-block;
-    margin: 0 45px;
-    margin-bottom: 20px;
-    -webkit-box-shadow: 0 12px 24px 0 rgba(7,17,27,0.2);
-            box-shadow: 0 12px 24px 0 rgba(7,17,27,0.2);
-    -webkit-transition: all .4s;
-    transition: all .4s;
-   
-
-    &:hover{
-        -webkit-box-shadow: 0 15px 35px 5px rgba(7,17,27,0.2);
-                box-shadow: 0 15px 35px 5px rgba(7,17,27,0.2);
-    
-    }
-}
-.card-time{
-    width: 20%;
-    line-height: 35px;
-    text-align: center;
-    height: 100%;
-    float: left;    
-    p:nth-child(1){
-        width: 100%;
-        height: 50%;
-        background-color: $green;
-        color: white;            
-        border-bottom: 1px solid white;
-        
-    }
-    p:nth-child(2){
-        width: 100%;
-        height: 50%;
-        
-        background-color: $green;
-        color: white;            
-    }
-    
-}
-
-.card-content{
-    width: 80%;
-    height: 90px;
-    float: left;    
-    display: table;
-    position: relative;
-    background-color: #217980;
-   
-}
-.card-content-inner{
-    display: table-cell;
-    vertical-align: middle;
-    width: 100%;
-    padding: 0 8px;
-    text-align: left;
-    font-size: 18px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    padding: 5px;
+    max-height: 30px;
     overflow: hidden;
-    // text-align: center;
-    p{  
-        height: 70px;
-        display: block;
-        display: -webkit-box;
-        -webkit-box-orient: vertical;
-        -webkit-line-clamp: 3;
-        overflow: hidden;
-        color: white;    
-        position: relative;
-    }
+    margin:10px 25px;
 }
