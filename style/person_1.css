@@ -1,0 +1,126 @@
+.container
+{
+    width: 85%;
+    margin: 0 auto;
+    border:1px solid #ccc;
+}
+
+
+
+.nav
+{
+    width: 20%;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.nav div
+{
+    display: inline-block;
+    position: relative;
+    top: -14px;
+    left: 10px;
+}
+.nav span
+{
+    display: inline-block;
+    
+}
+
+.nav li
+{
+    text-align: center;
+    padding: 5px 0;
+    margin-bottom: -1px;
+    background: #FDFBFC;
+
+
+}
+
+.nav img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.nav h4
+{
+    font-size: 22px;
+    font-weight: 12px;
+    margin-bottom: 10px;
+    border-bottom:2px solid #D2CDCD;
+}
+
+.detail
+{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: -260px;
+    left: 140px;
+}
+.top
+{
+    line-height: 50px;
+    text-align: center;
+}
+.detail h3
+{
+    font-size: 25px;
+    font-weight: 10px;
+}
+.detail img
+{
+    width: 200px;
+    height: 200px;
+}
+
+.main
+{
+    width: 90%;
+    margin : 0 auto;
+}
+.bottom
+{
+    width: 65%;
+    line-height: 50px;
+    margin:0 auto;
+}
+
+
+
+.bottom h4
+{
+    font-size: 21px;
+    font-weight: 15px;
+}
+.bottom h5
+{
+    font-size: 18px;
+    font-weight: 15px;
+}
+
+.bottom p
+{
+    font-size: 17px;
+    text-indent: 2em;
+    line-height: 30px;
+
+}
+
+.zhuzuo
+{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
+}
+
+.zhuzuo img
+{
+    width: 300px;
+    height: 350px;
+    margin-top: 20px;
+}
+
